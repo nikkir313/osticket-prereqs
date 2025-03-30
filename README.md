@@ -23,31 +23,32 @@ Before installing OS-Ticket, ensure you have the following:
 - Launch **Microsoft Azure** and create a **Windows 10 (21H2) Virtual Machine**.
 - Ensure that **Remote Desktop is enabled** for remote access.
 
-![VM Setup](placeholder-image-link-1.jpg)
+![VM Setup]
 
 ### **Step 2: Install IIS (Internet Information Services)**
 - Open the **Control Panel**, go to **Programs & Features**, and enable **IIS**.
 - Install necessary **IIS components** for running OS-Ticket.
 
-![IIS Installation](placeholder-image-link-2.jpg)
+![IIS Installation]
 
 ### **Step 3: Install PHP and MySQL**
 - Download and install **PHP (version 7.4 or later)**.
 - Install **MySQL** and create a **new database** for OS-Ticket.
 
-![PHP and MySQL Setup](placeholder-image-link-3.jpg)
+![PHP and MySQL Setup]
 
-### **Step 4: Download and Configure OS-Ticket**
+### **Step 4: Download and Configure OS-Ticket**(![os instal](https://github.com/user-attachments/assets/79ffcfa7-a10c-4372-85b1-4f58e04fcda1)
+
 - Download the **OS-Ticket installation package** from the [official website](https://osticket.com/download/).
 - Extract the files and place them in the IIS web root directory (`C:\inetpub\wwwroot`).
 
-![OS-Ticket Configuration](placeholder-image-link-4.jpg)
+![OS-Ticket Configuration]
 
 ### **Step 5: Final Setup and Testing**
 - Open a **web browser** and navigate to `http://localhost/osTicket/` to begin the installation.
 - Complete the setup by entering the **database details and administrator credentials**.
 
-![Final Installation](placeholder-image-link-5.jpg)
+![Final Installation]
 
 ## **Conclusion**
 After completing these steps, OS-Ticket should be successfully installed and running on your Windows 10 VM. If you encounter any issues, refer to the [official documentation](https://docs.osticket.com/) or seek help from the OS-Ticket community.
